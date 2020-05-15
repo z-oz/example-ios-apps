@@ -1,0 +1,20 @@
+PODS:
+  - CVCalendar (1.6.2)
+  - FSCalendar (2.8.1)
+
+DEPENDENCIES:
+  - CVCalendar (~> 1.6.2)
+  - FSCalendar
+
+SPEC REPOS:
+  trunk:
+    - CVCalendar
+    - FSCalendar
+
+SPEC CHECKSUMS:
+  CVCalendar: 515092247b9c5059855643c2a2220f259bd5417f
+  FSCalendar: 5245140456fcbcac5824c203b98bd8068bdfee1a
+
+PODFILE CHECKSUM: 1f24ac0da0c460b48f86773bfbd448ad1482338e
+
+COCOAPODS: 1.8.4

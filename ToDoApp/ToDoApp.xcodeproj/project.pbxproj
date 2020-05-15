@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF4C8421242016CB007BF355 /* CVCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4C8420242016CB007BF355 /* CVCalendar.framework */; };
+		EF7377FB24201013006B176C /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7377F224201013006B176C /* CategoryCell.swift */; };
+		EF7377FC24201013006B176C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7377F324201013006B176C /* AppDelegate.swift */; };
+		EF7377FD24201013006B176C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7377F424201013006B176C /* SceneDelegate.swift */; };
+		EF7377FE24201013006B176C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7377F524201013006B176C /* Assets.xcassets */; };
+		EF7377FF24201013006B176C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7377F624201013006B176C /* SecondViewController.swift */; };
+		EF73780024201013006B176C /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7377F724201013006B176C /* TaskListViewController.swift */; };
+		EF73780124201013006B176C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7377F824201013006B176C /* FirstViewController.swift */; };
+		EF73780224201013006B176C /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7377F924201013006B176C /* AddTaskViewController.swift */; };
+		EF73780324201013006B176C /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7377FA24201013006B176C /* TaskCell.swift */; };
+		EFCFF001242087FB00C6A678 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCFEFFD242087FB00C6A678 /* LaunchScreen.storyboard */; };
+		EFCFF002242087FB00C6A678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCFEFFF242087FB00C6A678 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF4C83FD2420144D007BF355 /* CVCalendar */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CVCalendar; path = ../../Downloads/ToDoApp/Pods/CVCalendar; sourceTree = "<group>"; };
+		EF4C83FF242014A6007BF355 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EF4C8400242014A6007BF355 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EF4C8402242014A6007BF355 /* CVCalendarDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVCalendarDayView.swift; sourceTree = "<group>"; };
+		EF4C8403242014A6007BF355 /* CVWeekdaySymbolType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVWeekdaySymbolType.swift; sourceTree = "<group>"; };
+		EF4C8404242014A6007BF355 /* CVRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVRange.swift; sourceTree = "<group>"; };
+		EF4C8405242014A6007BF355 /* CVCalendarMonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVCalendarMonthView.swift; sourceTree = "<group>"; };
+		EF4C8406242014A6007BF355 /* CVCalendarViewAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVCalendarViewAppearance.swift; sourceTree = "<group>"; };
+		EF4C8407242014A6007BF355 /* CVStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVStatus.swift; sourceTree = "<group>"; };
+		EF4C8408242014A6007BF355 /* CVCalendarViewAppearanceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVCalendarViewAppearanceDelegate.swift; sourceTree = "<group>"; };
+		EF4C8409242014A6007BF355 /* CVCalendarMenuViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVCalendarMenuViewDelegate.swift; sourceTree = "<group>"; };
+		EF4C840A242014A6007BF355 /* CVCalendarContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVCalendarContentViewController.swift; sourceTree = "<group>"; };
+		EF4C840B242014A6007BF355 /* CVDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVDate.swift; sourceTree = "<group>"; };
+		EF4C840C242014A6007BF355 /* CVCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVCalendarView.swift; sourceTree = "<group>"; };
+		EF4C840D242014A6007BF355 /* CVCalendarViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVCalendarViewDelegate.swift; sourceTree = "<group>"; };
+		EF4C840E242014A6007BF355 /* CVCalendarWeekContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVCalendarWeekContentViewController.swift; sourceTree = "<group>"; };
+		EF4C840F242014A6007BF355 /* CVSelectionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVSelectionType.swift; sourceTree = "<group>"; };
+		EF4C8410242014A6007BF355 /* CVSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVSet.swift; sourceTree = "<group>"; };
+		EF4C8411242014A6007BF355 /* CVAuxiliaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVAuxiliaryView.swift; sourceTree = "<group>"; };
+		EF4C8412242014A6007BF355 /* CVCalendarMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVCalendarMenuView.swift; sourceTree = "<group>"; };
+		EF4C8413242014A6007BF355 /* CVCalendarContentPresentationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVCalendarContentPresentationCoordinator.swift; sourceTree = "<group>"; };
+		EF4C8414242014A6007BF355 /* CVScrollDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVScrollDirection.swift; sourceTree = "<group>"; };
+		EF4C8415242014A6007BF355 /* CVCalendarTouchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVCalendarTouchController.swift; sourceTree = "<group>"; };
+		EF4C8416242014A6007BF355 /* CVCalendarMonthContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVCalendarMonthContentViewController.swift; sourceTree = "<group>"; };
+		EF4C8417242014A6007BF355 /* CVCalendarViewPresentationMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVCalendarViewPresentationMode.swift; sourceTree = "<group>"; };
+		EF4C8418242014A6007BF355 /* CVCalendarWeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVCalendarWeekView.swift; sourceTree = "<group>"; };
+		EF4C8419242014A6007BF355 /* CVCalendarViewAnimatorDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVCalendarViewAnimatorDelegate.swift; sourceTree = "<group>"; };
+		EF4C841A242014A6007BF355 /* CVCalendarViewAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVCalendarViewAnimator.swift; sourceTree = "<group>"; };
+		EF4C841B242014A6007BF355 /* CVCalendarDayViewControlCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVCalendarDayViewControlCoordinator.swift; sourceTree = "<group>"; };
+		EF4C841C242014A6007BF355 /* CVCalendarWeekday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVCalendarWeekday.swift; sourceTree = "<group>"; };
+		EF4C841D242014A6007BF355 /* CVCalendarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVCalendarManager.swift; sourceTree = "<group>"; };
+		EF4C841E242014A6007BF355 /* CVShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVShape.swift; sourceTree = "<group>"; };
+		EF4C841F242014A6007BF355 /* CVPresent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVPresent.swift; sourceTree = "<group>"; };
+		EF4C8420242016CB007BF355 /* CVCalendar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CVCalendar.framework; path = ../CVCalendar.framework; sourceTree = "<group>"; };
+		EF7377D924200E41006B176C /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7377EA24200E42006B176C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7377F224201013006B176C /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		EF7377F324201013006B176C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF7377F424201013006B176C /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EF7377F524201013006B176C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF7377F624201013006B176C /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EF7377F724201013006B176C /* TaskListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
+		EF7377F824201013006B176C /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		EF7377F924201013006B176C /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		EF7377FA24201013006B176C /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		EFCFEFFE242087FB00C6A678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFCFF000242087FB00C6A678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF7377D624200E41006B176C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4C8421242016CB007BF355 /* CVCalendar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF4C83FC2420144D007BF355 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF4C8420242016CB007BF355 /* CVCalendar.framework */,
+				EF4C83FD2420144D007BF355 /* CVCalendar */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF4C83FE242014A6007BF355 /* CVCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				EF4C83FF242014A6007BF355 /* LICENSE */,
+				EF4C8400242014A6007BF355 /* README.md */,
+				EF4C8401242014A6007BF355 /* CVCalendar */,
+			);
+			name = CVCalendar;
+			path = ../../../../../../../../Desktop/ToDoApp/ToDoApp/CVCalendar;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EF4C8401242014A6007BF355 /* CVCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				EF4C8402242014A6007BF355 /* CVCalendarDayView.swift */,
+				EF4C8403242014A6007BF355 /* CVWeekdaySymbolType.swift */,
+				EF4C8404242014A6007BF355 /* CVRange.swift */,
+				EF4C8405242014A6007BF355 /* CVCalendarMonthView.swift */,
+				EF4C8406242014A6007BF355 /* CVCalendarViewAppearance.swift */,
+				EF4C8407242014A6007BF355 /* CVStatus.swift */,
+				EF4C8408242014A6007BF355 /* CVCalendarViewAppearanceDelegate.swift */,
+				EF4C8409242014A6007BF355 /* CVCalendarMenuViewDelegate.swift */,
+				EF4C840A242014A6007BF355 /* CVCalendarContentViewController.swift */,
+				EF4C840B242014A6007BF355 /* CVDate.swift */,
+				EF4C840C242014A6007BF355 /* CVCalendarView.swift */,
+				EF4C840D242014A6007BF355 /* CVCalendarViewDelegate.swift */,
+				EF4C840E242014A6007BF355 /* CVCalendarWeekContentViewController.swift */,
+				EF4C840F242014A6007BF355 /* CVSelectionType.swift */,
+				EF4C8410242014A6007BF355 /* CVSet.swift */,
+				EF4C8411242014A6007BF355 /* CVAuxiliaryView.swift */,
+				EF4C8412242014A6007BF355 /* CVCalendarMenuView.swift */,
+				EF4C8413242014A6007BF355 /* CVCalendarContentPresentationCoordinator.swift */,
+				EF4C8414242014A6007BF355 /* CVScrollDirection.swift */,
+				EF4C8415242014A6007BF355 /* CVCalendarTouchController.swift */,
+				EF4C8416242014A6007BF355 /* CVCalendarMonthContentViewController.swift */,
+				EF4C8417242014A6007BF355 /* CVCalendarViewPresentationMode.swift */,
+				EF4C8418242014A6007BF355 /* CVCalendarWeekView.swift */,
+				EF4C8419242014A6007BF355 /* CVCalendarViewAnimatorDelegate.swift */,
+				EF4C841A242014A6007BF355 /* CVCalendarViewAnimator.swift */,
+				EF4C841B242014A6007BF355 /* CVCalendarDayViewControlCoordinator.swift */,
+				EF4C841C242014A6007BF355 /* CVCalendarWeekday.swift */,
+				EF4C841D242014A6007BF355 /* CVCalendarManager.swift */,
+				EF4C841E242014A6007BF355 /* CVShape.swift */,
+				EF4C841F242014A6007BF355 /* CVPresent.swift */,
+			);
+			path = CVCalendar;
+			sourceTree = "<group>";
+		};
+		EF7377D024200E41006B176C = {
+			isa = PBXGroup;
+			children = (
+				EF7377DB24200E41006B176C /* ToDoApp */,
+				EF7377DA24200E41006B176C /* Products */,
+				EF4C83FC2420144D007BF355 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF7377DA24200E41006B176C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF7377D924200E41006B176C /* ToDoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF7377DB24200E41006B176C /* ToDoApp */ = {
+			isa = PBXGroup;
+			children = (
+				EF4C83FE242014A6007BF355 /* CVCalendar */,
+				EF7377F924201013006B176C /* AddTaskViewController.swift */,
+				EF7377F324201013006B176C /* AppDelegate.swift */,
+				EF7377F524201013006B176C /* Assets.xcassets */,
+				EF7377F224201013006B176C /* CategoryCell.swift */,
+				EF7377F824201013006B176C /* FirstViewController.swift */,
+				EF7377F424201013006B176C /* SceneDelegate.swift */,
+				EFCFEFFF242087FB00C6A678 /* Main.storyboard */,
+				EF7377F624201013006B176C /* SecondViewController.swift */,
+				EF7377FA24201013006B176C /* TaskCell.swift */,
+				EF7377F724201013006B176C /* TaskListViewController.swift */,
+				EFCFEFFD242087FB00C6A678 /* LaunchScreen.storyboard */,
+				EF7377EA24200E42006B176C /* Info.plist */,
+			);
+			path = ToDoApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF7377D824200E41006B176C /* ToDoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7377ED24200E42006B176C /* Build configuration list for PBXNativeTarget "ToDoApp" */;
+			buildPhases = (
+				EF7377D524200E41006B176C /* Sources */,
+				EF7377D624200E41006B176C /* Frameworks */,
+				EF7377D724200E41006B176C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToDoApp;
+			productName = ToDoApp;
+			productReference = EF7377D924200E41006B176C /* ToDoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF7377D124200E41006B176C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Zubeyir Ozdemir";
+				TargetAttributes = {
+					EF7377D824200E41006B176C = {
+						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = EF7377D424200E41006B176C /* Build configuration list for PBXProject "ToDoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF7377D024200E41006B176C;
+			productRefGroup = EF7377DA24200E41006B176C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF7377D824200E41006B176C /* ToDoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF7377D724200E41006B176C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCFF002242087FB00C6A678 /* Main.storyboard in Resources */,
+				EF7377FE24201013006B176C /* Assets.xcassets in Resources */,
+				EFCFF001242087FB00C6A678 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF7377D524200E41006B176C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7377FF24201013006B176C /* SecondViewController.swift in Sources */,
+				EF7377FC24201013006B176C /* AppDelegate.swift in Sources */,
+				EF7377FB24201013006B176C /* CategoryCell.swift in Sources */,
+				EF73780124201013006B176C /* FirstViewController.swift in Sources */,
+				EF73780324201013006B176C /* TaskCell.swift in Sources */,
+				EF7377FD24201013006B176C /* SceneDelegate.swift in Sources */,
+				EF73780024201013006B176C /* TaskListViewController.swift in Sources */,
+				EF73780224201013006B176C /* AddTaskViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFCFEFFD242087FB00C6A678 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFCFEFFE242087FB00C6A678 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EFCFEFFF242087FB00C6A678 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFCFF000242087FB00C6A678 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF7377EB24200E42006B176C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF7377EC24200E42006B176C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF7377EE24200E42006B176C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7879Y3UVW9;
+				INFOPLIST_FILE = ToDoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CSC371.ToDoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EF7377EF24200E42006B176C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7879Y3UVW9;
+				INFOPLIST_FILE = ToDoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CSC371.ToDoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF7377D424200E41006B176C /* Build configuration list for PBXProject "ToDoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7377EB24200E42006B176C /* Debug */,
+				EF7377EC24200E42006B176C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7377ED24200E42006B176C /* Build configuration list for PBXNativeTarget "ToDoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7377EE24200E42006B176C /* Debug */,
+				EF7377EF24200E42006B176C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF7377D124200E41006B176C /* Project object */;
+}
